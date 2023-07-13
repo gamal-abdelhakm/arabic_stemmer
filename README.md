@@ -17,7 +17,3 @@ If the word doesn't match any of the patterns, the method enters a loop where it
 After defining the `Arabic_Stemmer` class, the code imports the necessary modules (`re` and `pandas`) and creates an instance of the `Arabic_Stemmer` class called `stemmer`.
 
 A list of Arabic words is provided in the `words` variable. The code then iterates through each word, applies the stemming process using the `stem` method of the `stemmer` object, and stores the stemmed words in a new list called `stemmed_words`.
-
-Finally, the code creates a pandas DataFrame to display the original words and their corresponding stemmed words in a tabular format. The DataFrame is printed to the console using the `print` function.
-
-This code showcases your ability to implement a language-specific tool (an Arabic stemmer) using Python and demonstrates your proficiency in working with string manipulation, regular expressions, and data manipulation with pandas.
